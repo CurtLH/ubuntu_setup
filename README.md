@@ -1,7 +1,19 @@
+# Postgresql
+Install `postgres`
+```
+$ sudo apt-get install postgresql
+```
+
+Add new user
+```
+$ sudo -i -u postgres
+$ createuser --interactive curtis
+```
+
 # conky
 Install `conky` and the required temperature sensors
 ```
-$ sudo apt-getl install conky-all lm-sensors hddtemp
+$ sudo apt-get install conky-all lm-sensors hddtemp
 ```
 
 Create a start up shell script
