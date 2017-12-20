@@ -1,5 +1,16 @@
-# Postgresql
-Install `postgres`
+# `xrdp`
+```
+$ sudo apt-get install xrdp
+$ sudo apt-get install mate-core mate-desktop-environment mate-notification-daemon
+$ sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n mate-session \n' /etc/xrdp/startwm.sh
+```
+
+# `git`
+```
+$ sudo apt-get install git
+```
+
+# `postges`
 ```
 $ sudo apt-get install postgresql
 ```
@@ -10,8 +21,7 @@ $ sudo -i -u postgres
 $ createuser --interactive curtis
 ```
 
-# conky
-Install `conky` and the required temperature sensors
+# `conky`
 ```
 $ sudo apt-get install conky-all lm-sensors hddtemp
 ```
