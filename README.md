@@ -21,6 +21,9 @@ $ sudo -i -u postgres
 $ createuser --interactive curtis
 ```
 
+Configure PostgreSQL to accept TCP/IP connections
+http://www.mozmorris.com/2011/11/15/configure-postgresql-to-accept-tcpip-connections.html
+
 # `conky`
 ```
 $ sudo apt-get install conky-all lm-sensors hddtemp
