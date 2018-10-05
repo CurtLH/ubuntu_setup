@@ -25,8 +25,8 @@ fi
 eval "$(hub alias -s)"
 
 # use conda auto activate
-source ~/Program_Files/conda-auto-env/conda_auto_env.sh
-source ~/Program_Files/conda-auto-env/conda_auto_env_remote.sh
+#source ~/Program_Files/conda-auto-env/conda_auto_env.sh
+#source ~/Program_Files/conda-auto-env/conda_auto_env_remote.sh
 
 
 # don't create .pyc and .pyo files
@@ -36,4 +36,7 @@ export PYTHONDONTWRITEBYTECODE
 # added by Miniconda3 installer
 export PATH="/home/curtis/Program_Files/miniconda3/bin:$PATH"
 source activate base
-source activate py35
+source activate py36
+
+export HIVE_HOME="/usr/local/hive" 
+export PATH=$PATH:$HIVE_HOME/bin
