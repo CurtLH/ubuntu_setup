@@ -6,8 +6,12 @@ alias grep='grep --color=auto'
 # set the default database
 export PGDATABASE=postgres
 
+# set Vim as the default text editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # Run twolfson/sexy-bash-prompt
-. ~/.bash_prompt
+#. ~/.bash_prompt
 
 ### Adds Hub-linux
 export PATH="$PATH:$HOME/Program_Files/hub-linux/bin/"
@@ -31,4 +35,5 @@ export PYTHONDONTWRITEBYTECODE
 
 # added by Miniconda3 installer
 export PATH="/home/curtis/Program_Files/miniconda3/bin:$PATH"
+source activate base
 source activate py35
